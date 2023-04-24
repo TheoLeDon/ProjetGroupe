@@ -21,7 +21,12 @@ h2, h3 {
 }
 
 .illustration {
-    width: 40%;
+    width: 100%;
     display: flex;
-    padding-left: 30%;
+    padding-left:10px ;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
