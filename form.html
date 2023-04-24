@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap" rel="stylesheet">
     <title>Squedrong - Contactez-moi.</title>
 </head>
 <body>
@@ -24,7 +26,8 @@
           </ul>
         </nav>
       </header>
-    <h1>Contacez-moi.</h1>
+      <main>
+    <h1>Contactez-moi.</h1>
     <p>Une question ? Un projet ? Merci de renseigner les champs ci-dessous et je vous répondrai dans les délais les meilleurs.</p>
     <p>Les champs marquées d'un* sont obligatoires.</p>
     <form action="traitement.html">
@@ -38,10 +41,14 @@
         <input type="email" name="mail" id="mail" maxlength="150" placeholder="adresse@domaine.com" required>
 
         <label for="telephone">N° de téléphone :</label>
-        <input type="tel" name="telephone" id="telephone" maxlength="10" placeholder="010203040506">
+        <input type="tel" name="telephone" id="telephone" maxlength="10" placeholder="0601020304">
 
         <label for="contact_message">Votre message :</label>
         <textarea name="contact_message" id="contact_message" cols="30" rows="10" maxlength="2000"></textarea>
+
+        <label for="submit"></label>
+        <input type="submit" id="submit">
     </form>
+  </main>
 </body>
 </html>
