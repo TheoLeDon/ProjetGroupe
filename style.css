@@ -6,3 +6,71 @@ body{
     margin-left: 15%;
     margin-right: 15%;
 }
+nav {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+  }
+.navMenu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+    transition: 300ms;
+    color: gray;
+  }
+.navMenu a:hover{
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #050643;
+}
+.navMenu ul {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+.navMenu ul:last-child {
+    gap: 3rem;
+    padding: 10px;
+  }
+.logo,
+.navMenu ul {
+  display: flex;
+  align-items: center;
+}
+.listIndex {
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #050643;
+}
+/*//////////////////
+ANIMATION 
+//////////////////*/
+nav li{
+    display: inline-block;
+    position: relative;
+    color: #050643;
+ }
+nav li::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #050643;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+nav li:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
