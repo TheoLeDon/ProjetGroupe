@@ -1,0 +1,33 @@
+main form
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+main #submit
+{
+    background-color: #e1466f;
+    width: 15%;
+    color: white;
+}
+
+main #submit:hover
+{
+    cursor: pointer;
+}
+
+main h1
+{
+    color: #e1466f;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 4em;
+    font-family: 'Abril Fatface', cursive;
+}
