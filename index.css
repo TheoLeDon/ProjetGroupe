@@ -20,46 +20,40 @@
  background-repeat: no-repeat;
  color: #e1466f;
 }
-section .date{
+section.imagesGrid .date{
     text-transform: uppercase;
     font-size: 0.8rem;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 500;
 }
-section h2{
+section.imagesGrid h2{
     color: #e1466f;
     padding-bottom: 10px;
 }
-section p{
+section.imagesGrid p{
     font-size: 0.8rem;
     padding-bottom: 10px;
     text-align: justify;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 15%;
-    margin-right: 15%;
-}
+/*////////////////*/
 
-main h1
+section.acceuilIntro h1
 {
     color: #e1466f;
     font-family: 'Abril Fatface';
 }
 
-main h2 {
+section.acceuilIntro h2 {
     color: black;
-    font-family: 'Abril Fatface';
+   
 }
 
 p {
     color: black;
-    font-family: 'Abril Fatface';
     font-size: 15px;
     text-align: justify;
     margin: 10px 0;
-    padding: 5px;
     }
 
 .illustration {
@@ -70,4 +64,32 @@ p {
 
 #intro{
     display: flex;
+}
+.twitter{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.twitter img{
+    width: 100px;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.linkedin img {
+    width: 100px;
+}
+.medium{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.medium img{
+    width: 100px;
 }
