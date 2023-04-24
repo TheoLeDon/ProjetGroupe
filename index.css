@@ -2,16 +2,14 @@
     display: grid;
     grid-template-columns:1fr 1fr;
     gap: 20px;
+    margin-top: 150px;
 
 }
 .imagesGrid img{
     width: 100%;
-    
+    height: 300px;
 }
-.imagesGrid a{
-    text-decoration: none;
-    text-transform: uppercase;
-}
+
 
 .enSavoirPlus{
  background-image: linear-gradient(to right, #e1466f 75%, transparent 50%);
@@ -19,38 +17,37 @@
  background-size: 100% 2px;
  background-repeat: no-repeat;
  color: #e1466f;
+ text-decoration: none;
+ text-transform: uppercase;
 }
-section .date{
+section.imagesGrid .date{
     text-transform: uppercase;
     font-size: 0.8rem;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 500;
 }
-section h2{
+section.imagesGrid h2 a{
     color: #e1466f;
     padding-bottom: 10px;
+    text-decoration: none;
 }
-section p{
+section.imagesGrid p{
     font-size: 0.8rem;
     padding-bottom: 10px;
     text-align: justify;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 15%;
-    margin-right: 15%;
-}
+/*////////////////*/
 
-main h1
+section.acceuilIntro h1
 {
     color: #e1466f;
     font-family: 'Abril Fatface';
 }
 
-main h2 {
+section.acceuilIntro h2 {
     color: black;
-    font-family: 'Abril Fatface';
+   
 }
 
 p {
@@ -58,7 +55,6 @@ p {
     font-size: 15px;
     text-align: justify;
     margin: 10px 0;
-    padding: 5px;
     }
 
 .illustration {
@@ -69,4 +65,66 @@ p {
 
 #intro{
     display: flex;
+}
+.cta{
+    display: inline-flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 30px;    
+}
+/*/////////////*/
+
+
+.twitter{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #00acee;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+}
+.twitter img{
+    width: 20px;
+    padding-right: 15px;
+}
+.twitter:hover {
+    background-color: #0090c9;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0072b1;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+}
+.linkedin img {
+    width: 20px;
+    padding-right: 15px;
+}
+.linkedin:hover{
+background-color: #006195;
+}
+.medium{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 15px 30px;
+}
+.medium:hover{
+    color: rgb(182, 182, 182);
+}
+.medium img{
+    width: 20px;
+    padding-right: 15px;
 }
