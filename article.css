@@ -1,0 +1,19 @@
+img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+h1 {
+    color:#e1466f;
+    text-align: justify;
+}
+p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+h2, h3 {
+    color:#050643;
+}
