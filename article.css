@@ -30,3 +30,12 @@ h2, h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+h2.footer {
+    color:#e1466f;
+
+}
+
+footer {
+    text-align: justify;
+}
