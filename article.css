@@ -39,3 +39,9 @@ h2.footer {
 footer {
     text-align: justify;
 }
+
+.illu-footer {
+    width: 250px;
+    height: 250px;
+    padding-left: 60%;
+}
