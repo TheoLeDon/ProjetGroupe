@@ -21,6 +21,7 @@ h2, h3 {
 }
 
 .illustration {
+    padding-top: 2%;
     width: 100%;
     display: flex;
     padding-left:10px ;
@@ -28,7 +29,7 @@ h2, h3 {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 60% 40%;
 }
 
 h2.footer {
@@ -38,10 +39,77 @@ h2.footer {
 
 footer {
     text-align: justify;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .illu-footer {
     width: 250px;
     height: 250px;
-    padding-left: 60%;
+    padding-left: 55%;
+}
+
+.cta{
+    display: inline-flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;   
+}
+/*/////////////*/
+
+
+.twitter{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #00acee;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+}
+.twitter img{
+    width: 20px;
+    padding-right: 15px;
+}
+.twitter:hover {
+    background-color: #0090c9;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0072b1;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+}
+.linkedin img {
+    width: 20px;
+    padding-right: 15px;
+}
+.linkedin:hover{
+background-color: #006195;
+}
+.medium{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 15px 30px;
+}
+.medium:hover{
+    color: rgb(182, 182, 182);
+}
+.medium img{
+    width: 20px;
+    padding-right: 15px;
+}
+body {
+    margin-bottom: 20%;
 }
