@@ -128,3 +128,32 @@ background-color: #006195;
     width: 20px;
     padding-right: 15px;
 }
+@media screen and (max-width: 390px) {
+    .imagesGrid{
+      display: inline-block;
+      width: 1fr;
+    }
+    .illustration{
+        display: none;
+    }
+    h1{
+        display: flex;
+        text-align: center;
+    }
+    .cta{
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+        margin-top: 15px;    
+    }
+    section .accueilIntro{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #intro h1{
+        display: flex;
+        align-items: center;
+    }
+  }

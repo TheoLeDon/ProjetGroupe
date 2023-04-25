@@ -72,3 +72,21 @@ nav li:hover:after{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+@media screen and (max-width: 390px) {
+  body{
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  .logo{
+    display: none;
+  }
+  .navMenu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  .navMenu ul:last-child {
+    gap: 2rem;
+    
+  }
+}
